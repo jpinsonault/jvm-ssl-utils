@@ -1,9 +1,9 @@
 (ns puppetlabs.certificate-authority.test.puppet-agent-cert-manager
   (:require [clojure.java.io :as io]
             [me.raynes.fs :as fs])
-  (:import (com.puppetlabs.certificate_authority.test PathUtils)
-           (com.puppetlabs.certificate_authority.test PuppetMasterCertManager)
-           (com.puppetlabs.certificate_authority CertificateAuthority)))
+  (:import (com.puppetlabs.ssl_utils.test PathUtils)
+           (com.puppetlabs.ssl_utils.test PuppetMasterCertManager)
+           (com.puppetlabs.ssl_utils CertificateAuthority)))
 
 (defn- path-concat
   [& elements]

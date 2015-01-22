@@ -1,6 +1,6 @@
-package com.puppetlabs.certificate_authority.test;
+package com.puppetlabs.ssl_utils.test;
 
-import com.puppetlabs.certificate_authority.CertificateAuthority;
+import com.puppetlabs.ssl_utils.CertificateAuthority;
 
 import org.apache.commons.io.FileUtils;
 import org.bouncycastle.operator.OperatorCreationException;
@@ -9,9 +9,7 @@ import org.joda.time.DateTime;
 import org.joda.time.Period;
 import java.util.Date;
 
-import java.io.*;
 import java.math.BigInteger;
-import java.security.*;
 import java.security.cert.CRLException;
 import java.security.cert.CertificateException;
 import java.security.cert.X509CRL;

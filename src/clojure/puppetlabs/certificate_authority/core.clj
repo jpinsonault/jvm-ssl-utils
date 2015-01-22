@@ -5,8 +5,8 @@
            (javax.security.auth.x500 X500Principal)
            (org.bouncycastle.asn1.x500 X500Name)
            (org.bouncycastle.pkcs PKCS10CertificationRequest)
-           (com.puppetlabs.certificate_authority CertificateAuthority
-                                                 ExtensionsUtils)
+           (com.puppetlabs.ssl_utils CertificateAuthority
+                      ExtensionsUtils)
            (java.util Map List Date Set))
   (:require [clojure.tools.logging :as log]
             [clojure.walk :as walk]

@@ -1,4 +1,4 @@
-package com.puppetlabs.certificate_authority;
+package com.puppetlabs.ssl_utils;
 
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.codec.binary.Hex;
@@ -180,7 +180,7 @@ public class CertificateAuthority {
      * @throws IOException
      * @throws OperatorCreationException
      * @throws CertificateException
-     * @see com.puppetlabs.certificate_authority.ExtensionsUtils#getExtensionsObjFromMap(java.util.List)
+     * @see com.puppetlabs.ssl_utils.ExtensionsUtils#getExtensionsObjFromMap(java.util.List)
      */
     public static X509Certificate signCertificate(String issuerDn,
                                                   PrivateKey issuerPrivateKey,
